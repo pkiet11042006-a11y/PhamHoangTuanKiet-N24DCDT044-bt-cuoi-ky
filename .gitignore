@@ -1,0 +1,15 @@
+# Tệp tạm hệ điều hành và trình soạn thảo
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
+
+# Tệp đệm và biên dịch Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+Manifest.toml
+LocalPreferences.toml
+__pycache__/
