@@ -1,0 +1,7 @@
+$ julia --version
+julia version 1.12.7
+$ julia --startup-file=no test/verify_exhaustive.jl
+EXHAUSTIVE_OK instances=480 subsets_checked=30600 n=1..8
+ORACLE=Bitmask_Exhaustive_2^n; textbook_5_items_subsets=32 best_val=51 nodes_bb=12 nodes_no_bound=44
+All selected sets verified: 0/1 uniqueness, ascending IDs, weight <= W, value == oracle optimal.
+[EXIT CODE: 0]

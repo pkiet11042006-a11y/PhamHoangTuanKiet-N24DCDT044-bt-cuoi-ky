@@ -1,0 +1,11 @@
+$ julia --version
+julia version 1.12.7
+$ julia --startup-file=no demo.jl --ca=8
+DT040 - MINH HOA TU CHOI DU LIEU KHONG HOP LE (LOI01)
+Ca kiem: LOI01 - Trong luong am w[2]=-3 vi pham mien w[i] in 1..100
+Input : w=[4, -3, 5]; v=[8, 6, 9]; W=10
+Mong doi: kiem_tra_dau_vao nem ArgumentError tu choi trong luong khong nguyen duong.
+DA TU CHOI DU LIEU: ArgumentError: trong luong w[2] phai nam trong mien 1..100
+KET QUA MINH HOA: DUNG; validator da chan input sai truoc khi chay nhanh can.
+Ma thoat 0 chi danh cho demo bat dung ngoai le du kien.
+[EXIT CODE: 0]

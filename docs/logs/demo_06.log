@@ -1,0 +1,17 @@
+$ julia --version
+julia version 1.12.7
+$ julia --startup-file=no demo.jl --ca=6
+DT040 - CHON DO VAT BANG NHANH VA CAN CHO CAI TUI 0/1
+Ca kiem: BIEN02 - Bien 2 (Ca phieu 2): Mot do vat n=1 nang hon suc chua w=[5], v=[9], W=4
+Input : n=1; w=[5]; v=[9]; W=4
+Bang do vat sau khi sap theo ty le v/w giam dan (giu nguyen ID goc):
+Thu tu | ID goc | Trong luong w | Gia tri v | Ty le v/w
+     1 |      1 |             5 |         9 |    1.8000
+Can tren phan so tai nut goc (i=1, suc_con=4): 7.2000
+Gia tri lon nhat : 0
+Danh sach ID chon: Int64[]
+Tong trong luong : 0 / 4
+Kiem tra tap 0/1 : HOP LE
+So nut nhanh can : 2 (cat can: 0 nhanh)
+So nut khong can : 2
+[EXIT CODE: 0]

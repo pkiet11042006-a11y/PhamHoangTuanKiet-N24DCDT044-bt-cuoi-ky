@@ -1,0 +1,20 @@
+$ git remote -v
+origin  https://github.com/pkiet11042006-a11y/PhamHoangTuanKiet-N24DCDT044-bt-cuoi-ky.git (fetch)
+origin  https://github.com/pkiet11042006-a11y/PhamHoangTuanKiet-N24DCDT044-bt-cuoi-ky.git (push)
+$ git rev-parse HEAD
+19cc3b19caada1ce07032ed1c98218e3cfba5e65
+$ git log -1 --oneline
+19cc3b1 Complete DT040 0/1 Knapsack Branch and Bound source, tests, oracle and scripts
+$ git status --short
+WORKTREE_CLEAN (tai commit C)
+$ git ls-files
+.gitignore
+README.md
+Run_all.ps1
+demo.jl
+docs/anh_ket_qua/README.md
+scripts/test_catalog.jl
+scripts/trace_and_scales.jl
+src/CaiTui01.jl
+test/runtests.jl
+test/verify_exhaustive.jl

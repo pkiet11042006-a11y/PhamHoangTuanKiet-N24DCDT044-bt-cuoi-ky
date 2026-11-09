@@ -1,0 +1,22 @@
+$ julia --startup-file=no demo.jl --nhap
+Nhap n va W (vi du: 5 26):
+Nhap 5 trong luong w[1..5] cach nhau boi khoang trang:
+Nhap 5 gia tri v[1..5] cach nhau boi khoang trang:
+DT040 - CHON DO VAT BANG NHANH VA CAN CHO CAI TUI 0/1
+Ca kiem: NHAP_BAN_PHIM - Du lieu nhap tu stdin
+Input : n=5; w=[12, 7, 11, 8, 9]; v=[24, 13, 23, 15, 16]; W=26
+Bang do vat sau khi sap theo ty le v/w giam dan (giu nguyen ID goc):
+Thu tu | ID goc | Trong luong w | Gia tri v | Ty le v/w
+     1 |      3 |            11 |        23 |    2.0909
+     2 |      1 |            12 |        24 |    2.0000
+     3 |      4 |             8 |        15 |    1.8750
+     4 |      2 |             7 |        13 |    1.8571
+     5 |      5 |             9 |        16 |    1.7778
+Can tren phan so tai nut goc (i=1, suc_con=26): 52.6250
+Gia tri lon nhat : 51
+Danh sach ID chon: [2, 3, 4]
+Tong trong luong : 26 / 26
+Kiem tra tap 0/1 : HOP LE
+So nut nhanh can : 12 (cat can: 4 nhanh)
+So nut khong can : 44
+[EXIT CODE: 0]

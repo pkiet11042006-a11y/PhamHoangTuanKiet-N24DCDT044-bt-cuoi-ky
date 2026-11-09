@@ -1,0 +1,17 @@
+$ git clone https://github.com/pkiet11042006-a11y/PhamHoangTuanKiet-N24DCDT044-bt-cuoi-ky.git clone_source_C
+CLONE_CLEAN_OK
+$ cd clone_source_C && git rev-parse HEAD
+19cc3b19caada1ce07032ed1c98218e3cfba5e65
+$ .\Run_all.ps1
+julia version 1.12.7
+=== DEMO 1..8 COMPLETED (VD01, VD02, TK01, TK02, BIEN01..03, LOI01) ===
+Test Summary:                          | Pass  Total  Time
+DT040 - 12 ca chuc nang va bien hop le |   61     61  0.5s
+Test Summary:                                                       | Pass  Total  Time
+DT040 - Kiem tra du lieu vao (LOI01..LOI11) va ham phu (HP01..HP05) |   16     16  0.2s
+DA QUA 12 CA CHUC NANG/BIEN VA 16 CA VALIDATOR/HAM PHU (TONG 28 CA).
+EXHAUSTIVE_OK instances=480 subsets_checked=30600 n=1..8
+CATALOG_OK functional_cases=12 invalid_and_helper_cases=16 total_cases=28
+Doi chieu voi giai_cai_tui: DUNG; so_nut=12, so_cat_can=4, gia_tri=51, chon=[2, 3, 4], so_nut_khong_can=44
+END_TO_END_OK: demos, tests, independent oracle, trace and scale counters completed.
+[EXIT CODE: 0]

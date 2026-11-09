@@ -1,0 +1,22 @@
+$ julia --version
+julia version 1.12.7
+$ julia --startup-file=no demo.jl --ca=4
+DT040 - CHON DO VAT BANG NHANH VA CAN CHO CAI TUI 0/1
+Ca kiem: TK02 - Tu thiet ke 2: Nhieu do vat cung ty le v/w va co do vat gia tri v=0
+Input : n=6; w=[4, 2, 6, 3, 5, 4]; v=[8, 4, 9, 6, 0, 6]; W=9
+Bang do vat sau khi sap theo ty le v/w giam dan (giu nguyen ID goc):
+Thu tu | ID goc | Trong luong w | Gia tri v | Ty le v/w
+     1 |      1 |             4 |         8 |    2.0000
+     2 |      2 |             2 |         4 |    2.0000
+     3 |      4 |             3 |         6 |    2.0000
+     4 |      3 |             6 |         9 |    1.5000
+     5 |      6 |             4 |         6 |    1.5000
+     6 |      5 |             5 |         0 |    0.0000
+Can tren phan so tai nut goc (i=1, suc_con=9): 18.0000
+Gia tri lon nhat : 18
+Danh sach ID chon: [1, 2, 4]
+Tong trong luong : 9 / 9
+Kiem tra tap 0/1 : HOP LE
+So nut nhanh can : 7 (cat can: 4 nhanh)
+So nut khong can : 63
+[EXIT CODE: 0]
